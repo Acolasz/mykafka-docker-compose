@@ -1,0 +1,9 @@
+version: "3"
+services:
+  mykafka:
+    image: acolasz/mykafka:0.0.1
+    container_name: mykafka-1
+    volumes:
+      - c:\Users\beerl\workspace\github\docker\kafka:/tmp/kafka-logs
+    ports:
+      - 9092:9092
